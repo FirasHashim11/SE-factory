@@ -86,3 +86,12 @@ def checkRotation():
         num=int(input("Please enter the number:"))
         matrices_2[row].append(num)
   print("Your matrices are:",matrices_2)
+    for i,j in range(num_rows),range(num_cols):
+      if matrices[i][j] == matrices_2[j][i] :
+        print("The matrices are  rotations of each other")
+        print("\n")
+        break
+      else:
+        print("The matrices are not rotations of each other")
+        print("\n")
+        break
