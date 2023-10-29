@@ -1,1 +1,15 @@
+print("Assignment 3")
 
+# def userName():
+name=input("Please enter your name: ")
+print("Hello",name,".Welcome to our program . " )
+  
+def display():
+  print("Here are the following options in our Program:")
+  print("\t 1.Add Matrices\n"
+        + "\t 2.Check Rotation\n"
+        + "\t 3.Invert Dictionary\n"
+        + "\t 4.Convert Matrix to Dictionary\n"
+        + "\t 5.Check Palindrome\n"
+        + "\t 6.Search for an Element & Merge Sort\n"
+        + "\t 7.Exit/n")
