@@ -189,3 +189,15 @@ def main():
     print("Check Palindrome")
     checkPalindrome()
     main()
+    elif choice==6:
+    print("Search for an Element & Merge Sort")
+    mergeSort()
+    main()
+
+  elif choice==7:
+    print("Thanks for your visit . You will exit the program now")
+  else:
+    print("Invalid value.Try again please")
+    print("\n")
+    main()
+main()
