@@ -80,3 +80,9 @@ def checkRotation():
   matrices_2=[]
   num_rows_2=int(input("Please enter the number of rows for the small matrix: "))
   num_cols_2=int(input("Please enter the number of columns for the small matrix: "))
+    for row in range(num_rows_2):
+    matrices_2.append([])
+    for col in range(num_cols_2):
+        num=int(input("Please enter the number:"))
+        matrices_2[row].append(num)
+  print("Your matrices are:",matrices_2)
