@@ -41,3 +41,14 @@ def addMatrices():
     
     print("The result of adding the two lists in the first matrix is:",result)
     print("\n")
+  elif num_rows <= 4:
+    result=[]
+    for i in range(len(matrices[0])):
+        result.append(matrices[0][i] + matrices[1][i])
+    result1=[]
+    for i in range(len(matrices[2])):
+      result1.append(matrices[2][i] + matrices[3][i]) 
+      
+    print("The result of adding the two lists in the first matrix is:",result)
+    print("The result of adding the two lists in the second matrix is:",result1)
+    print("\n")
