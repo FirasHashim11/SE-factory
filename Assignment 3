@@ -66,3 +66,7 @@ def addMatrices():
     print("The result of adding the two lists in the second matrix is:",result1)
     print("The result of adding the two lists in the third matrix is:",result2)
     print("\n")
+def checkRotation():
+  matrices=[]
+  num_rows=int(input("Please enter the number of rows for the big matrix: "))
+  num_cols=int(input("Please enter the number of columns for the big matrix: "))
