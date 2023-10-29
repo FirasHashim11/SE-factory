@@ -13,3 +13,14 @@ def display():
         + "\t 5.Check Palindrome\n"
         + "\t 6.Search for an Element & Merge Sort\n"
         + "\t 7.Exit/n")
+def addMatrices():
+  matrices=[]
+  num_rows=int(input("Please enter the number of rows: "))
+  num_cols=int(input("Please enter the number of columns: "))
+
+  for row in range(num_rows):
+    matrices.append([])
+    for col in range(num_cols):
+        num=int(input("Please enter the number:"))
+        matrices[row].append(num)
+  print("Your matrices are:",matrices)
