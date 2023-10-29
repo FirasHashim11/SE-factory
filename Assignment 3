@@ -177,3 +177,15 @@ def main():
     print("Check Rotation")
     checkRotation()
     main()
+    elif choice==3:
+    print("Invert Dictionary")
+    invertDictionary()
+    main()
+  elif choice==4:
+    print("Convert Matrix to Dictionary")
+    convertMatrixToDictionary()
+    main()
+  elif choice==5:
+    print("Check Palindrome")
+    checkPalindrome()
+    main()
