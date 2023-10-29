@@ -122,3 +122,17 @@ def convertMatrixToDictionary():
     ID=int(input("Please enter the ID of the user: "))
     job_title=input("Please enter the job title of the user: ")
     company_name=input("Please enter the company name of the user: ")
+      data.append(first_name)
+    data.append(last_name)
+    data.append(ID)
+    data.append(job_title)
+    data.append(company_name)
+    matrices.append(data)
+    print("Your matrices are:",matrices)
+    for data in matrices:
+      ID = data[2]
+      dictionary = {}
+      dictionary[ID] = first_name,last_name,job_title,company_name
+      for ID, data in dictionary.items():
+        print(dictionary)
+        print("\n")
