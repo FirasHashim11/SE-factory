@@ -24,3 +24,20 @@ def addMatrices():
         num=int(input("Please enter the number:"))
         matrices[row].append(num)
   print("Your matrices are:",matrices)
+  if num_rows <= 2:
+     print("your first matrix is ",matrices[0:2])
+  elif num_rows <= 4:
+     print("your first matrix is ",matrices[0:2])
+     print("your second matrix is ",matrices[2:4])
+  elif num_rows <= 6:
+     print("your first matrix is ",matrices[0:2])
+     print("your second matrix is ",matrices[2:4])
+     print("your third matrix is ",matrices[4:6])
+
+  result=[]
+  if num_rows <= 2:
+    for i in range(len(matrices[0])):
+      result.append(matrices[0][i] + matrices[1][i])
+    
+    print("The result of adding the two lists in the first matrix is:",result)
+    print("\n")
