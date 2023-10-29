@@ -95,3 +95,15 @@ def checkRotation():
         print("The matrices are not rotations of each other")
         print("\n")
         break
+def invertDictionary():
+  print("Please enter key-value pairs for your dictionary. Enter 'done' when finished.") 
+  dictionary = {} 
+  while True: 
+    key = input("Enter a key: ") 
+    if key == "done":
+     break 
+    value = input("Enter a value: ") 
+    if value == "done": 
+      break 
+    else: 
+      dictionary[key] = value
