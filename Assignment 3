@@ -164,3 +164,16 @@ def mergeSort():
   else:
       print("The string is not one of the elements in the list")
       print("\n")
+def main():
+  # userName()
+  display()
+  choice=int(input("Please enter your choice: "))
+  if choice==1:
+    print("Add Matrices")
+    addMatrices()
+    main()
+
+  elif choice==2:
+    print("Check Rotation")
+    checkRotation()
+    main()
