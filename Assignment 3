@@ -136,3 +136,12 @@ def convertMatrixToDictionary():
       for ID, data in dictionary.items():
         print(dictionary)
         print("\n")
+def checkPalindrome():
+  word=input("Please enter a word to check if it is a palindrome: ")
+  print("The reversed word is :",word[::-1] )
+  if word == word[::-1]:
+    print("The word is a palindrome")
+    print("\n")
+  else:
+    print("The word is not a palindrome")
+    print("\n")
