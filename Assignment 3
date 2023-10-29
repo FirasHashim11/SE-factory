@@ -145,3 +145,22 @@ def checkPalindrome():
   else:
     print("The word is not a palindrome")
     print("\n")
+def mergeSort():
+  list=[]
+  elements = eval(input("Please enter the number of elements in the list: "))
+  for x in range(elements):
+    value=str(input("Enter the elements in the List:"))
+    list.append(value)
+  print("The list created is:" ,list)
+  user_input=input("Please enter a string to check if it is one of the elements in the list:")
+  index=-1
+  for i in range(len(list)):
+    if list[i]== user_input:
+      index=i
+      break
+  if index !=-1:    
+      print("The string is one of the elements in the list at index:",index)
+      print("\n")
+  else:
+      print("The string is not one of the elements in the list")
+      print("\n")
