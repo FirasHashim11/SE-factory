@@ -107,3 +107,7 @@ def invertDictionary():
       break 
     else: 
       dictionary[key] = value
+    print("The original dictionary is:",dictionary)
+  inverted_dict = {value: key for key, value in dictionary.items()}
+  print("The inverted dictionary is:",inverted_dict)
+  print("\n")
