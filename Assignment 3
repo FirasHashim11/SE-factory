@@ -108,8 +108,8 @@ def invertDictionary():
     else: 
       dictionary[key] = value
     print("The original dictionary is:",dictionary)
-  inverted_dict = {value: key for key, value in dictionary.items()}
-  print("The inverted dictionary is:",inverted_dict)
+  dictionary_invert = {value: key for key, value in dictionary.items()}
+  print("The inverted dictionary is:",dictionary_invert)
   print("\n")
 def convertMatrixToDictionary():
   matrices=[]
@@ -152,14 +152,14 @@ def mergeSort():
     value=str(input("Enter the elements in the List:"))
     list.append(value)
   print("The list created is:" ,list)
-  user_input=input("Please enter a string to check if it is one of the elements in the list:")
-  index=-1
+  user=input("Please enter a string to check if it is one of the elements in the list:")
+  j=-1
   for i in range(len(list)):
-    if list[i]== user_input:
-      index=i
+    if list[i]== user:
+      j=i
       break
-  if index !=-1:    
-      print("The string is one of the elements in the list at index:",index)
+  if j !=-1:    
+      print("The string is one of the elements in the list at index:",j)
       print("\n")
   else:
       print("The string is not one of the elements in the list")
