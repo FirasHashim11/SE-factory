@@ -39,3 +39,5 @@ def closeTab():
         print("The Closed tab is :",y)
         print("The Updated tabs are:",program)
         print("\n")
+    else:
+        print("Invalid index. Please try again.")
