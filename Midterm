@@ -25,23 +25,33 @@ def openTab():
   print("Your tabs are:",program)
   return program
 def closeTab():
-  x = input("Enter the index of the tab to close (or leave blank to close the last opened tab): ")
+  x = input("Enter the index of the tab to close or leave it empty to close the last opened tab: ")
   if x == '':
     program.pop(len(program)-1)
-    print("Last opened tab close successfully!")
+    print("Last opened tab is  closed now ")
     print(program)
   else:
     x = int(x)
     if  x < len(program):
         y=program.pop(x)
-        print("Tab at index", x, "closed successfully!")
+        print("Tab at index", x, "closed now")
         print("The Closed tab is :",y)
         print("The Updated tabs are:",program)
         print("\n")
     else:
-        print("Invalid index. Please try again.")
+        print("Invalid index")
 def switchTab():
   if len(program) == 0:
     print("No tabs are currently open.")
     return
   x = input("Enter the index of the tab to switch Tabs. If no index is provided, the system will display the content of the last opened tab: ")
+  if x == "":
+    title, url = program[-1]
+    print("You are switching to Tab:", title)
+  else:
+    x = int(x)
+    if  x > len(program):
+        print("Invalid tab ")
+    else:
+        title = program[x]
+        print("You are switching to Tab:", title)
