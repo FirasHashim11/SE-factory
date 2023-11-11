@@ -55,3 +55,6 @@ def switchTab():
     else:
         title = program[x]
         print("You are switching to Tab:", title)
+def displayTabs():
+  for title in program :
+    print(title)
