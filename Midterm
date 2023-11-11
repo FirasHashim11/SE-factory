@@ -25,3 +25,5 @@ def openTab():
   print("Tabs added successfully!\n")
   print("Your tabs are:",program)
   return program
+def closeTab():
+  x = input("Enter the index of the tab to close (or leave blank to close the last opened tab): ")
