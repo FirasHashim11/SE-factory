@@ -21,3 +21,7 @@ def openTab():
       if title == 'exit':
           break
       url = input("Enter the URL of the website: ")
+      program.append({title : url})
+  print("Tabs added successfully!\n")
+  print("Your tabs are:",program)
+  return program
