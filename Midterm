@@ -27,3 +27,7 @@ def openTab():
   return program
 def closeTab():
   x = input("Enter the index of the tab to close (or leave blank to close the last opened tab): ")
+  if x == '':
+    program.pop(len(program)-1)
+    print("Last opened tab close successfully!")
+    print(program)
