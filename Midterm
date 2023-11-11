@@ -31,3 +31,11 @@ def closeTab():
     program.pop(len(program)-1)
     print("Last opened tab close successfully!")
     print(program)
+  else:
+    x = int(x)
+    if  x < len(program):
+        y=program.pop(x)
+        print("Tab at index", x, "closed successfully!")
+        print("The Closed tab is :",y)
+        print("The Updated tabs are:",program)
+        print("\n")
