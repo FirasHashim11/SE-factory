@@ -18,3 +18,6 @@ def openTab():
 
   while True:
       title = input("Enter the title of the Tab you want to open or write exit to stop: ")
+      if title == 'exit':
+          break
+      url = input("Enter the URL of the website: ")
