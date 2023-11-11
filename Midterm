@@ -41,3 +41,7 @@ def closeTab():
         print("\n")
     else:
         print("Invalid index. Please try again.")
+def switchTab():
+  if len(program) == 0:
+    print("No tabs are currently open.")
+    return
