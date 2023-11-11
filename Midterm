@@ -14,3 +14,7 @@ def display():
         + "\t 7.Save Tabs\n"
         + "\t 8.Import Tabs\n"
         + "\t 9.Exit\n")
+def openTab():
+
+  while True:
+      title = input("Enter the title of the Tab you want to open or write exit to stop: ")
