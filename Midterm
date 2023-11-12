@@ -67,7 +67,7 @@ def displayTabs():
 def openNestedTabs():
   parent_tab = int(input("Enter the index of the parent tab: "))
   while True:
-    title = input("Enter the title of the new tab: ")
+    title = input(""Enter the title of the new tab or write exit to stop: ")
     if title == 'exit':
       break
     content = input("Enter the content of the new tab: ")
