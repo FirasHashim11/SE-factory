@@ -81,3 +81,9 @@ def saveTabs():
   with open(file_path, "w") as file:
       json.dump(program, file)
   print("Tabs are saved in the path you entered")
+def importTabs():
+  file_path = input("Enter the file path to import tabs: ")
+  with open(file_path, "r") as file:
+          imported_tabs = eval(file.read())
+          program.extend(imported_tabs)
+          print("Tabs in the path you entered are  imported")
