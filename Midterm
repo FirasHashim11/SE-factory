@@ -118,3 +118,7 @@ def main():
     print("You will open all nested Tabs")
     openNestedTabs()
     main()
+  elif choice==6:
+    print("You will clear all  Tabs")
+    clearTabs()
+    main()
