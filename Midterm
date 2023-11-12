@@ -122,3 +122,7 @@ def main():
     print("You will clear all  Tabs")
     clearTabs()
     main()
+  elif choice==7:
+    print("You will save all  Tabs")
+    saveTabs()
+    main()
