@@ -126,3 +126,7 @@ def main():
     print("You will save all  Tabs")
     saveTabs()
     main()
+  elif choice==8:
+    print("You will import all  Tabs")
+    importTabs()
+    main()
