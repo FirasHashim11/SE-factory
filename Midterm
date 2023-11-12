@@ -76,3 +76,8 @@ def openNestedTabs():
 def clearTabs():
   new_program=program.clear()
   print("Your Tabs are cleared now : ",new_program)
+def saveTabs():
+  file_path = input("Enter the file path to save the tabs as the following ex: Desktop/tab.json   : ")
+  with open(file_path, "w") as file:
+      json.dump(program, file)
+  print("Tabs are saved in the path you entered")
