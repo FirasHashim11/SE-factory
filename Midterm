@@ -87,3 +87,12 @@ def importTabs():
           imported_tabs = eval(file.read())
           program.extend(imported_tabs)
           print("Tabs in the path you entered are  imported")
+def main():
+  
+  display()
+  choice=int(input("Please enter your choice: "))
+  if choice==1:
+    print("\n")
+    print("You will open a new tab")
+    openTab()
+    main()
