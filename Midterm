@@ -110,3 +110,7 @@ def main():
     else:
       print("url is not correct , please try again")
     main()
+  elif choice==4:
+    print("You will display all the Tabs")
+    displayTabs()
+    main()
