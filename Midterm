@@ -73,3 +73,6 @@ def openNestedTabs():
     content = input("Enter the content of the new tab: ")
     program[parent_tab].update({title: content})
   print("Your nested tabs are added now under the parent tab:" ,program)
+def clearTabs():
+  new_program=program.clear()
+  print("Your Tabs are cleared now : ",new_program)
