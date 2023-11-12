@@ -114,3 +114,7 @@ def main():
     print("You will display all the Tabs")
     displayTabs()
     main()
+  elif choice==5:
+    print("You will open all nested Tabs")
+    openNestedTabs()
+    main()
