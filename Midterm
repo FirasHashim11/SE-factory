@@ -96,3 +96,10 @@ def main():
     print("You will open a new tab")
     openTab()
     main()
+  elif choice==2:
+    print("You will close the Tab")
+    closeTab()
+    main()
+  elif choice==3:
+    print("You will switch the Tab")
+    switchTab()
