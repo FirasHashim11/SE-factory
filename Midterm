@@ -103,7 +103,7 @@ def main():
   elif choice==3:
     print("You will switch the Tab")
     switchTab()
-    url = input("Enter the URL to extract the content as http://google.com  :  ")
+    url = input("Enter the URL to extract the content as https://google.com  :  ")
     display_content = get_html_content(url)
     if display_content is not None:
       print("HTML content of url ",url,"is",display_content)
