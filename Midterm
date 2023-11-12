@@ -119,16 +119,21 @@ def main():
     openNestedTabs()
     main()
   elif choice==6:
-    print("You will clear all  Tabs")
+    print("You will clear all the opened Tabs")
     clearTabs()
     main()
   elif choice==7:
-    print("You will save all  Tabs")
+    print("You will save all the opened  Tabs to the path you will enter")
     saveTabs()
     main()
   elif choice==8:
-    print("You will import all  Tabs")
+    print("You will import all the Tabs in the file into the program")
     importTabs()
     main()
   elif choice==9:
     print("Thanks for your visit . You will exit the program now")
+  else:
+    print("Invalid value.Try again please")
+    print("\n")
+    main()
+main()
